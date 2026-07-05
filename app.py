@@ -125,18 +125,22 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-with st.expander("ℹ️ About Project"):
-    st.write("""
-    **Project:** Employee Promotion Prediction
+import streamlit as st
 
-    **Model:** Gradient Boosting Classifier
+st.sidebar.title("📌 About")
 
-    **Dataset:** HR Analytics - Employee Promotion Prediction Dataset
+st.sidebar.markdown("""
+### Project Information
 
-    **Description:**
-    This application predicts whether an employee is likely to be promoted based on
-    factors such as department, education, age, previous year rating, length of
-    service, awards won, and average training score.
+**Project:** Employee Promotion Prediction
 
-    **Developed by:** Abhay Mahajan
-    """)
+**Model:** Gradient Boosting Classifier
+
+**Dataset:** HR Analytics - Employee Promotion Prediction Dataset
+
+**Framework:** Streamlit
+
+**Language:** Python
+
+**Developed by:** Abhay Mahajan
+""")
