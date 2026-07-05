@@ -115,3 +115,13 @@ if st.button("Predict"):
         st.error(
             "Employee will not be promoted"
         )
+st.markdown("---")
+st.markdown(
+    """
+    <div style='text-align: center; color: gray;'>
+        <h4>Employee Promotion Prediction</h4>
+        <p>Developed by <b>Abhay Mahajan</b></p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
