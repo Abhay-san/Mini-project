@@ -12,10 +12,7 @@ st.title("Employee Promotion Prediction")
 
 
 st.write("Enter Employee Details")
-st.write("Department:
-Sales → 0
-HR → 1
-Technology → 2")
+st.write("Department: Sales → 0 HR → 1 Technology → 2")
 
 
 employee_id = st.number_input(
