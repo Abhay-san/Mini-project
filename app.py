@@ -13,6 +13,7 @@ st.title("Employee Promotion Prediction")
 
 st.write("Enter Employee Details")
 st.write("Department: Sales → 0 HR → 1 Technology → 2")
+st.write("0 = Female , 1 = Male")
 
 
 employee_id = st.number_input(
@@ -48,11 +49,11 @@ age = st.number_input(
 )
 
 previous_year_rating = st.number_input(
-    "Previous Year Rating"
+    "Previous Year Rating( 0-5 )"
 )
 
 length_of_service = st.number_input(
-    "Length of Service"
+    "Length of Service( 0-37 )"
 )
 
 
@@ -61,7 +62,7 @@ awards_won = st.number_input(
 )
 
 avg_training_score = st.number_input(
-    "Average Training Score"
+    "Average Training Score ( Out of 100 )"
 )
 
 
