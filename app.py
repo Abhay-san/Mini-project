@@ -125,3 +125,18 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+with st.expander("ℹ️ About Project"):
+    st.write("""
+    **Project:** Employee Promotion Prediction
+
+    **Model:** Gradient Boosting Classifier
+
+    **Dataset:** HR Analytics - Employee Promotion Prediction Dataset
+
+    **Description:**
+    This application predicts whether an employee is likely to be promoted based on
+    factors such as department, education, age, previous year rating, length of
+    service, awards won, and average training score.
+
+    **Developed by:** Abhay Mahajan
+    """)
