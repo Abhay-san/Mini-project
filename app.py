@@ -7,6 +7,16 @@ import joblib
 
 model = joblib.load("promotion_model.pkl")
 
+st.markdown(
+ """
+  <style>
+ .stapp {
+	background-color: #f0f8ff;
+	}
+	</style>
+	""",
+	unsafe_allow_html=True
+)
 
 st.title("Employee Promotion Prediction")
 
@@ -146,13 +156,3 @@ st.sidebar.markdown("""
 
 **Developed by:** Abhay Mahajan
 """)
-st.markdown(
- """
-  <style>
- .stapp {
-	background-color: #f0f8ff;
-	}
-	</style>
-	""",
-	unsafe_allow_html=True
-)
