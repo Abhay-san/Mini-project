@@ -10,7 +10,7 @@ model = joblib.load("promotion_model.pkl")
 st.markdown(
  """
   <style>
- .stapp {
+ .stApp {
 	background-color: #f0f8ff;
 	}
 	</style>
