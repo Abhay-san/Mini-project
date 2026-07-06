@@ -146,3 +146,13 @@ st.sidebar.markdown("""
 
 **Developed by:** Abhay Mahajan
 """)
+st.markdown(
+ """
+  <style>
+ .stapp {
+	background-color: #f0f8ff;
+	}
+	</style>
+	""",
+	unsafe_allow_html=True
+)
