@@ -18,7 +18,7 @@ st.markdown(
 	unsafe_allow_html=True
 )
 
-st.title("Employee Promotion Prediction✨")
+st.title("Employee Promotion Prediction👨‍💼🎯")
 
 
 st.write("Enter Employee Details")
